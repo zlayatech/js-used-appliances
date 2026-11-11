@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zlayatech.github.io/js-used-appliances/sitemap.xml
+Sitemap: https://jsusedappliances.com/sitemap.xml

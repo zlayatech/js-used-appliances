@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://zlayatech.github.io/js-used-appliances/</loc>
+    <loc>https://jsusedappliances.com/</loc>
     <lastmod>2026-11-10</lastmod>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/logo-1448.jpg</image:loc></image:image>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/showroom-750.jpg</image:loc></image:image>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/fridge-750.jpg</image:loc></image:image>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/range-750.jpg</image:loc></image:image>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/washer-750.jpg</image:loc></image:image>
+    <image:image><image:loc>https://jsusedappliances.com/assets/img/dryer-750.jpg</image:loc></image:image>
   </url>
 </urlset>
