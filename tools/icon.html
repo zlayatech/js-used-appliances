@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<title>icon template</title>
+<!-- Render: capture the 512x512 square at top-left, then resize with sips (see README).
+     icon.html        tight "JS" crop, used for the 32px favicon
+     icon.html?full   whole emblem, used for app/touch icons -->
+<style>
+html,body{margin:0;background:#000}
+.icon{position:relative;width:512px;height:512px;overflow:hidden;
+  background:radial-gradient(closest-side,rgba(225,6,0,.45),rgba(225,6,0,0)),#000}
+/* Crop the red "JS" letters out of the logo and center them. */
+.icon img{position:absolute;width:760px;height:auto;left:-157px;top:-47px;mix-blend-mode:lighten}
+.full .icon img{width:512px;left:0;top:64px}
+</style></head>
+<body><script>if (location.search.indexOf('full') > -1) document.body.className = 'full';</script><div class="icon"><img src="../assets/img/logo-1448.jpg" alt=""></div></body></html>

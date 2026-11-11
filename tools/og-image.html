@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<title>og-image template</title>
+<!-- Render: open at http://127.0.0.1:8765/tools/og-image.html and capture the 1200x630 card (see README). -->
+<style>
+@font-face{font-family:"Archivo";src:url("../assets/fonts/archivo-latin-var.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%}
+html,body{margin:0;background:#000}
+p{margin:0}
+.card{position:relative;width:1200px;height:630px;overflow:hidden;font-family:"Archivo",sans-serif;color:#fff;
+  background:radial-gradient(ellipse 34% 58% at 31% 50%,rgba(225,6,0,.38),rgba(225,6,0,.1) 56%,rgba(225,6,0,0) 78%),#000}
+.logo{position:absolute;left:18px;top:28px;width:760px;height:auto;mix-blend-mode:lighten}
+.copy{position:absolute;left:780px;top:0;bottom:0;width:380px;display:flex;flex-direction:column;justify-content:center}
+h1{margin:0;font-size:76px;line-height:.9;font-weight:850;font-stretch:64%;letter-spacing:-.005em}
+.place{margin-top:18px;font-size:27px;font-weight:600;color:#C9CFD4}
+.phone{margin-top:30px;font-size:44px;font-weight:850;font-stretch:80%;color:#FF4136;font-variant-numeric:tabular-nums}
+.addr{margin-top:8px;font-size:21px;color:#C9CFD4}
+.bar{position:absolute;left:0;right:0;bottom:0;height:8px;background:linear-gradient(90deg,rgba(225,6,0,0),#E10600 20%,#E10600 80%,rgba(225,6,0,0))}
+</style></head>
+<body><div class="card">
+  <img class="logo" src="../assets/img/logo-1448.jpg" alt="">
+  <div class="copy">
+    <h1>Tested used appliances</h1>
+    <p class="place">Niagara Falls, NY</p>
+    <p class="phone">(716) 425-3622</p>
+    <p class="addr">2425 Hyde Park Blvd, Suite 2</p>
+  </div>
+  <div class="bar"></div>
+</div></body></html>
