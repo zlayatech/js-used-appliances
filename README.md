@@ -25,7 +25,7 @@ https://zlayatech.github.io/js-used-appliances/ address redirects there).
 - **Hours**: change them in four places in `index.html`: the `HOURS` table in the script at the bottom, the hours
   table in the Contact section, the FAQ answer (visible text and the matching `FAQPage` JSON-LD), and
   `openingHoursSpecification` in the JSON-LD. Also update the footer.
-- **Phone or email**: search and replace `716) 425-3622` / `+17164253622` / `jsusedappliances817@gmail.com`.
+- **Phone or email**: search and replace `716) 425-3622` / `+17164253622` / `info@jsusedappliances.com`.
 - **Google rating in the hero** ("5.0 on Google (26 reviews)", checked Nov 10, 2026): update it when the review count changes.
 - **Delivery wording**: the "Delivery available" point and FAQ answer are based on a customer review. Confirm with the owner.
 
